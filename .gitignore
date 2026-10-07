@@ -1,0 +1,27 @@
+# Secrets et etat local — ne jamais committer
+.env
+*.env
+secrets.json
+config.json
+.token_cache.json
+token.json
+*.token.json
+.envrc
+auth.json
+credentials.json
+google_token*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+
+# Divers
+.DS_Store
+*.log
+.idea/
+.vscode/
